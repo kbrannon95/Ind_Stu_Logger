@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  ind-studio-python-example:
+    hostname: ind-studio-python-example
+    image: ind-studio-python-example
+    container_name: ind-studio-python-example
+    volumes:
+      - ./config:/app/config
+    networks:
+      - ind-studio_gateway
+
+   
+networks:
+  ind-studio_gateway: 
+    external: true

@@ -1,0 +1,6 @@
+{
+  "rabbitmq_settings": {
+    "RABBITMQ_SERVER": "amqp://guest:guest@host.docker.internal:5672/",
+    "EXCHANGE_NAME": "opc-ua-CTC_CNC"
+  }
+}
